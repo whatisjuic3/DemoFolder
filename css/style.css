@@ -1,0 +1,59 @@
+/* navigation */
+
+.navBar {
+    display: block;
+    background-color: #333;
+    margin:0;
+    padding-top: 30px;
+    position: relative;
+    text-align: left;
+}
+
+
+a {
+    display: inline;
+    margin-top:15px;
+    color: white;
+    background-color: #333;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding:20px
+}
+
+/* fonts */
+h3 {
+  font-size: 24px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 14px;
+    
+  }
+  
+  .left {
+    width: 23%;
+  }
+  
+  .right {
+    width: 73%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Other stuff I need */
+  .border {
+    border: .25px solid #525050;
+    margin:20px;
+  }
+  .threePix {
+    display: inline-block;
+    padding:20px;
+    text-align: center;
+  }
+ 
